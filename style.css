@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+}
+
+:root {
+  --texto-titulo: 'Dosis';
+  --texto-paragrafo: 'Open Sans';
+  --color-titulo-rosa: #ee24ff;
+  --color-titulo: #3f3d56;
+  --color-paragrafo: #828282;
+  --color-linha: #eceff2;
+}
+
+.container {
+max-width: 626px;
+margin: 64px auto;
+}
+
+.wave {
+  width: 100%;
+  position: fixed;
+  left: 0px;
+  bottom: 0;
+}
+
+h1 {
+  font-family: var(--texto-titulo);
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  color: var(--color-titulo);
+}
+
+span {
+  color: var(--color-titulo-rosa);
+  font-weight: 700;
+}
+
+.paragrafo {
+  max-width: 460px;
+  margin: 16px auto 32px;
+}
+
+p {
+  color: var(--color-paragrafo);
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 400;
+}
+
+.normal {
+  color: var(--color-titulo);
+}
+
+.descricao {
+  max-width: 626px;
+  margin: 0 auto 64px;
+}
+
+.line {
+  max-width: 391px;
+  border: 1px solid var(--color-linha);
+  margin: 0 auto 16px;
+}
+
+footer a {
+  text-decoration: none;
+  font-weight: 700;
+  color: var(--color-titulo);
+  padding: 0 21px;
+  margin: 0 auto 40.83px;
+}
